@@ -24,6 +24,20 @@ checkpoints/
 .env
 .env.*
 
+# LaTeX compiled artifacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+paper/main.tex
+
 # OS
 .DS_Store
 Thumbs.db
