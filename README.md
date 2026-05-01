@@ -32,14 +32,26 @@ A comparative study of four automatic biomedical text simplification systems eva
 
 ## How to run the demo
 
+### Option A — Local (Jupyter)
+
 ```bash
-git clone <repo-url>
-cd <repo>
+git clone https://github.com/IbrahimHanafy2222/NLP-Project-Submission
+cd NLP-Project-Submission
 pip install -r requirements.txt
 jupyter notebook notebooks/05_evaluation.ipynb
 ```
 
-Run all cells. No GPU or Google Drive required.
+Run all cells top-to-bottom. No GPU or Google Drive required.
+
+### Option B — Google Colab
+
+1. Open [Google Colab](https://colab.research.google.com/)
+2. File → Open notebook → **GitHub** tab
+3. Paste: `IbrahimHanafy2222/NLP-Project-Submission`
+4. Select `notebooks/05_evaluation.ipynb`
+5. Runtime → Run all
+
+No GPU needed. All predictions are pre-committed (`predictions/samples/`). Figures generate from `results/metrics.csv`.
 
 ## Structure
 
