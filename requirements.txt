@@ -1,0 +1,11 @@
+datasets==2.18.0
+spacy==3.7.4
+textstat==0.7.3
+pandas==2.2.1
+scikit-learn==1.4.1.post1
+transformers==4.40.0
+torch==2.2.2
+sacrebleu==2.4.0
+easse==0.2.0
+matplotlib==3.8.4
+nbconvert==7.16.3

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large — not committed)
+data/
+
+# Full predictions (large — samples committed instead)
+predictions/*.jsonl
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
